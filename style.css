@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
+  font-family: system-uni, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
